@@ -1,0 +1,300 @@
+/* *dark Mode */
+label .fa-moon {
+    position: absolute;
+    right: 7rem;
+    top: 2rem;
+}
+
+label .fa-sun {
+    font-weight: 300;
+    opacity: 0;
+}
+
+input:checked~label .fa-moon {
+    opacity: 0;
+}
+
+input:checked~label .fa-sun {
+    opacity: 1;
+}
+
+html:has(#dark-mode:checked) {
+    body {
+        background: #252525;
+    }
+
+    label .fa-sun {
+        color: #fff;
+    }
+
+    nav {
+        background: #171717;
+    }
+
+    header {
+        background: #252525;
+    }
+
+    .continer2 {
+        background: #252525;
+    }
+
+    .logo {
+        color: #fff;
+    }
+
+    .continer1 .logo::after {
+        color: #c17e1f;
+    }
+
+    li a:hover {
+        color: #fff;
+        transition: 1s;
+    }
+
+    .content h2 {
+        color: #fff;
+    }
+
+    .content p {
+        color: #9f9f9f;
+    }
+
+    .book-table {
+        background-color: #c17e1f;
+        border: 20px solid #c17e1f;
+        border-width: 15px 30px;
+    }
+
+    .book-table:hover {
+        background-color: #ec9e30;
+        border: 20px solid #ec9e30;
+        border-width: 15px 30px;
+    }
+
+    .border-icon {
+        border-top: 0px double #c17e1f;
+        border-right: 0px solid #252525;
+        border-bottom: 0px solid #252525;
+        border-left: 0px solid #c17e1f;
+        border-width: 32px;
+        background-color: #c17e1f;
+    }
+
+    .icon a {
+        color: #fff;
+    }
+
+    .icon i {
+        background-color: #171717;
+    }
+
+    .icon a:hover {
+        color: #c17e1f;
+        transition: 0.7s;
+    }
+
+    .toggle .common {
+        border: 2px solid #fff;
+        background-color: #fff;
+        transition: 0.2s ease;
+        border-radius: 50px;
+    }
+
+    .toggle .top_line {
+        background-color: #000;
+    }
+
+    .toggle .bottom_line {
+        background-color: #000;
+    }
+
+    .sidebar a:hover {
+        color: #000;
+        transition: 0.5s;
+    }
+
+    .continer3 {
+        background: #202020;
+    }
+
+    .continer3 p {
+        color: #fff;
+    }
+
+    .pro {
+        color: #c17e1f;
+    }
+
+    .content-chefs h3 {
+        color: rgb(255, 255, 255);
+    }
+
+    .content-chefs p {
+        color: #7f7f90;
+    }
+
+    .hide-on-phone a::after {
+        background-color: #c17e1f;
+        transition: 0.5s;
+    }
+
+    .hide-on-phone a:hover::after {
+        width: 80%;
+        transition: 0.5s;
+    }
+
+    .side-icons i:hover {
+        color: #000;
+        transition: 0.5s;
+    }
+
+    .chefs {
+        background: #202020;
+    }
+
+    .chef-card:hover {
+        transform: scale(1.05);
+        transition: 0.5s;
+        box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.3);
+    }
+
+    .chef-card::before {
+        content: "";
+        position: absolute;
+        background-image: url(wave2.svg);
+        width: 100%;
+        height: 47%;
+        bottom: 0;
+    }
+
+    .continer4 pro {
+        color: #c17e1f;
+    }
+
+    .continer4 p {
+        color: #fff;
+    }
+
+    .gallery {
+        background: #252525;
+    }
+
+    .continer4 {
+        background: #252525;
+    }
+
+    .contact {
+        background: #202020;
+    }
+
+    form {
+        background-color: #171717;
+    }
+
+    .top-contant h2 {
+
+        color: #7f7f90;
+    }
+
+    .top-contant p {
+        color: #9f9f9f;
+    }
+
+    .top-contant span {
+        color: #c17e1f;
+    }
+
+    .icon-contact {
+        content: "";
+        position: relative;
+        background-color: #c17e1f;
+        border: 0px solid #c17e1f;
+        border-width: 20px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        margin: 0px 10px 0px 0px;
+    }
+
+    .icon-contact i::before {
+        color: #000;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .details-two h3 {
+        color: #adadad;
+    }
+
+    .details-two p {
+        color: #fff;
+    }
+
+    .details-two a {
+        color: #fff;
+    }
+
+    .details {
+        background-color: #202020;
+    }
+
+    .address {
+        background-color: #000;
+    }
+
+    .email {
+        background-color: #000;
+    }
+
+    .phone {
+        background-color: #000;
+    }
+
+    .opening-hours {
+        background-color: #000;
+    }
+
+    .btn-contact {
+        color: #000;
+        background-color: #c17e1f;
+    }
+
+    .btn-contact:hover {
+        background-color: #ec9e30;
+    }
+
+    input:focus {
+        border: #c17e1f solid 3px;
+        transition: 0.2s;
+    }
+
+    textarea:focus {
+        border: #c17e1f solid 3px;
+        transition: 0.2s;
+    }
+
+    .footer-logo h2::after {
+        color: #c17e1f;
+    }
+
+    .sub-input-group button {
+        color: #000;
+        background: #c17e1f;
+    }
+
+    .sub-input-group button:hover {
+        background: #ec9e30;
+    }
+
+    .footer-get li i {
+        color: #c17e1f;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(#c17e1f, #6b4208);
+        border-radius: 20px;
+    }
+}

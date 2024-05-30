@@ -1,0 +1,180 @@
+/* *media*/
+@media (max-width: 1100px) {
+    .hide-on-phone {
+        display: none;
+    }
+
+    .continer1 i {
+        position: relative;
+        right: 50px;
+        top: 5px;
+    }
+
+    label .fa-moon {
+        position: absolute;
+        top: 2rem;
+        left: 19rem;
+    }
+
+    .gallery-photos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .continer4 {
+        margin: 50px 0px;
+        padding: 40px 15px;
+    }
+
+    .continer5 {
+        margin: 50px 0px;
+        padding: 40px 15px;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-groub {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon-contact {
+        content: "";
+        position: relative;
+        background-color: #CE1212;
+        border: 0px solid #CE1212;
+        border-width: 20px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 10px 0px 0px;
+    }
+
+    .icon-contact i::before {
+        color: #fff;
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .address {
+        width: 100%;
+    }
+
+    .email {
+        width: 100%;
+    }
+
+    .phone {
+        width: 100%;
+    }
+
+    .opening-hours {
+        width: 100%;
+    }
+
+    .continer6 {
+        margin: 0;
+        padding: 40px 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-about {
+        width: 80%;
+        height: 50%;
+    }
+
+    .footer-sub {
+        width: 80%;
+        height: 50%;
+    }
+
+    .footer-get {
+        width: 80%;
+        height: 50%;
+    }
+    ::-webkit-scrollbar
+{
+    width: 0px;
+}
+}
+
+@media (min-width: 1100px) {
+    .sidebar {
+        display: none;
+    }
+
+    .toggle {
+        display: none;
+        visibility: hidden;
+    }
+
+    .continer1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0px 107px;
+        padding: 25px 5px;
+    }
+
+    .continer2 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 90px 107px 0px;
+        padding: 40px 5px;
+        background-color: #eee;
+        gap: 50px;
+    }
+
+    .hide-on-phone {
+        position: relative;
+    }
+
+    header {
+        height: 100vh;
+    }
+
+    .continer3 {
+        margin: 50px 107px;
+        padding: 40px 5px;
+    }
+
+    .card-chefs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: self-start
+    }
+
+    .content p {
+        text-align: left;
+        width: 70%;
+    }
+
+    .two-button {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image img {
+        width: 90%;
+    }
+
+    .book-table {
+        border-top-left-radius: 0%;
+    }
+
+}
